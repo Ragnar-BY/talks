@@ -35,3 +35,31 @@ Graph DB is a database that uses graph structures for semantic queries with node
 .image total.png
 
 * Neo4j properties
+- Implemented in Java
+- Full ACID (Atomicity, Consistency, Isolation, Durability) support
+- On the CA side of the CAP triangle
+- REST-server and a web front-end
+- Open-source and Enterprise edition( with online backup and high availability extensions )
+- Use Cypher query language
+- Can operate with db using Java API, Gremlin language
+- Officially supports the drivers for .Net, Java, JavaScript, Go, and Python for the binary Bolt protocol.
+- JetBrain plugin (https://github.com/neueda/jetbrains-plugin-graph-database-support)
+
+* Cypher language
+
+SQL-like + ASCII-Art syntax
+
+.code code.cq /START FIRST EXAMPLE/,/END FIRST EXAMPLE/
+
+* Main commands and keywords
+- MATCH  - to select data
+- RETURN - return value
+- CREATE - to create node or relationship
+- DELETE - to delete node or relationship (DETACH DELETE - to delete node and all its relationships)
+- SET - to update property of node or relationship
+- REMOVE - to delete property ( == SET property = null)
+- MERGE  - “select-or-insert”
+- WHERE - condition of query
+- count(),collect() - aggregation
+- ORDER BY - to sort
+- LIMIT - to limit
