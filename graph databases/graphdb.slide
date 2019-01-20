@@ -43,7 +43,11 @@ Graph DB is a database that uses graph structures for semantic queries with node
 - Use Cypher query language
 - Can operate with db using Java API, Gremlin language
 - Officially supports the drivers for .Net, Java, JavaScript, Go, and Python for the binary Bolt protocol.
-- JetBrain plugin (https://github.com/neueda/jetbrains-plugin-graph-database-support)
+- JetBrain plugin
+.link https://github.com/neueda/jetbrains-plugin-graph-database-support
+
+* Browser
+.image browser.png
 
 * Cypher language
 
@@ -53,7 +57,7 @@ SQL-like + ASCII-Art syntax
 
 * Main commands and keywords
 - MATCH  - to select data
-- RETURN - return value
+- RETURN - to return value
 - CREATE - to create node or relationship
 - DELETE - to delete node or relationship (DETACH DELETE - to delete node and all its relationships)
 - SET - to update property of node or relationship

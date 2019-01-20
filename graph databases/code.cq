@@ -1,5 +1,6 @@
 // START FIRST EXAMPLE OMIT
-MATCH (kristen:Customer {name:'Kristen'})-[rel:PURCHASED]->(order:Order)
-RETURN order.orderId AS OrderID, order.orderDate AS `Purchase Date`,
-       kristen.customerIdNo AS CustomerID, order.orderNumOfLineItems AS `Number Of Items`
+MATCH (a:Actor)-[:ACTED_IN]->(m:Movie)<-[:DIRECTED]-(d:Director)
+ WHERE a.name=d.name
+ RETURN a.name as Name,m.title as Title,m.year as year
+ ORDER BY year
 // END FIRST EXAMPLE OMIT
