@@ -1,0 +1,37 @@
+Graph databases
+
+* What is graph databases?
+
+Graph DB is a database that uses graph structures for semantic queries with nodes, edges and properties to represent and store data. A key concept of the system is the graph (or edge or relationship), which directly relates data items in the store a collection of nodes of data and edges representing the relationships between the nodes.
+.image GraphDatabase_PropertyGraph.png
+
+* Types of objects in Graph DB
+
+- Nodes
+- Edges
+- Properties
+
+* Usage of graph DB
+1. Recommendation engines
+2. Fraud detection
+3. Network and IT operations
+4. Search
+5. Master data management
+6. Identity and access management
+7. Machine learning
+
+* Popularity of graph DB
+.image popularity.png
+
+* Popularity comparison
+.image graph_rank.png
+
+* Total popularity
+.image rank1.png
+
+.image rank2.png
+
+* Popularity in percents
+.image total.png
+
+* Neo4j properties
