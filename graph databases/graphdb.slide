@@ -1,5 +1,8 @@
 Graph databases
 
+Roman Buzuk
+Golang software engineer
+
 * What is graph databases?
 
 Graph DB is a database that uses graph structures for semantic queries with nodes, edges and properties to represent and store data. A key concept of the system is the graph (or edge or relationship), which directly relates data items in the store a collection of nodes of data and edges representing the relationships between the nodes.
@@ -67,3 +70,32 @@ SQL-like + ASCII-Art syntax
 - count(),collect() - aggregation
 - ORDER BY - to sort
 - LIMIT - to limit
+
+* Example
+
+We can use for neo4j sandbox for testing
+
+.link https://neo4j.com/sandbox-v2/ Sandbox
+
+* Dgraph
+.link https://github.com/dgraph-io/dgraph
+
+- Implemented in Go
+- Use own query language similar to GraphQL( GraphQL+)
+- show better results in own benchmark
+.link https://blog.dgraph.io/post/benchmark-neo4j/ benchmark
+
+* OrientDB
+.link https://orientdb.com
+- Multi-model database ( supports graph, document, key/value)
+- Use SQL-like language
+- Supports Gremlin language
+- Driver for Go is old
+- is 10X faster than Neo4j on Graph operations among all the workloads ( from old benchmark)
+
+* ArangoDB
+.link https://www.arangodb.com
+- Multi-model database ( supports graph, documents, key/value)
+- Good results in own benchmark
+- SQL-like query language (AQL)
+- Official Go driver
