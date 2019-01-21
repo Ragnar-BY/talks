@@ -1,0 +1,1 @@
+[https://talks.godoc.org/github.com/Ragnar-BY/talks/graph_databases/graphdb.slide#1 link]
