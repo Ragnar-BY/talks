@@ -4,3 +4,20 @@ MATCH (a:Actor)-[:ACTED_IN]->(m:Movie)<-[:DIRECTED]-(d:Director)
  RETURN a.name as Name,m.title as Title,m.year as year
  ORDER BY year
 // END FIRST EXAMPLE OMIT
+
+// START DGRAPH OMIT
+{
+  brCharacters(func: eq(name@en, "Blade Runner")) {
+    name@en
+    initial_release_date
+    starring {
+      performance.actor {
+        name@en  # actor name
+      }
+      performance.character {
+        name@en  # character name
+      }
+    }
+  }
+}
+// END DGRAPH OMIT

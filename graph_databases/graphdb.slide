@@ -73,7 +73,7 @@ SQL-like + ASCII-Art syntax
 
 * Example
 
-We can use for neo4j sandbox for testing
+We can use neo4j sandbox for testing
 
 .link https://neo4j.com/sandbox-v2/ Sandbox
 
@@ -84,6 +84,7 @@ We can use for neo4j sandbox for testing
 - Use own query language similar to GraphQL( GraphQL+)
 - show better results in own benchmark
 .link https://blog.dgraph.io/post/benchmark-neo4j/ benchmark
+.code code.cq /START DGRAPH/,/END DGRAPH/
 
 * OrientDB
 .link https://orientdb.com
